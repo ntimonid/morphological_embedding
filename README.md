@@ -1,6 +1,6 @@
-# Morphological Embedding
+# Morphology Embedder
 
-Morpological Embedding takes as input cell morphologies in the form of 3D point clouds and creates a 2-dimensional embedding in which cells with a similar morphology (shape) are close to each other.
+Morpological Embedder takes as input cell morphologies in the form of 3D point clouds and creates a 2-dimensional embedding in which cells with a similar morphology (shape) are close to each other.
 
 ## Motivation
 Comparing cell morphologies is important for exploring the role of cell phenotypes in neurodevelopmental disorders and neurodegenerative diseases. However, this is not computationally trivial because unlike arrays, point clouds do not necessarily have the same number of points and these points are not aligned. This necessitates the development of a methodology for comparing the shapes of different cells. For this reason the following methodology has been implemented:
