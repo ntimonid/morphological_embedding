@@ -10,3 +10,9 @@ Comparing cell morphologies is important for exploring the role of cell phenotyp
 2. The comparison of all possible cells of interest results in a 2D similarity matrix.
 3. The similarity matrix is then given as input to the t-SNE dimensionality reduction algorithm, which outputs a 2D embedding of their alignment.
 5. 2D scatter plots are then used to visualize the result.
+
+## References
+This code has been used in the following published work:  
+Timonidis, Nestor, et al. "Translating single-neuron axonal reconstructions into meso-scale connectivity statistics in the mouse somatosensory thalamus." Frontiers in neuroinformatics 17 (2023): 1272243. doi: https://doi.org/10.3389/fninf.2023.1272243
+
+
