@@ -6,7 +6,7 @@ Morpological Embedder takes as input cell morphologies in the form of 3D point c
 
 ## Motivation
 Comparing cell morphologies is important for exploring the role of cell phenotypes in neurodevelopmental disorders and neurodegenerative diseases. However, this is not computationally trivial because unlike arrays, point clouds do not necessarily have the same number of points and these points are not aligned. This necessitates the development of a methodology for comparing the shapes of different cells. For this reason the following methodology has been implemented:
-1. The Coherent Point Drift algorithm is used to create an alignment score between the shapes of two cells (Myronenko et al., 2012).
+1. The Coherent Point Drift algorithm is used to create an alignment score between the shapes of two cells (*Myronenko et al., 2012).
 2. The comparison of all possible cells of interest results in a 2D similarity matrix.
 3. The similarity matrix is then given as input to the t-SNE dimensionality reduction algorithm, which outputs a 2D embedding of their alignment.
 5. 2D scatter plots are then used to visualize the result.
@@ -14,6 +14,7 @@ Comparing cell morphologies is important for exploring the role of cell phenotyp
 ## References
 This code has been used in the following published work:  
 Timonidis, Nestor, et al. "Translating single-neuron axonal reconstructions into meso-scale connectivity statistics in the mouse somatosensory thalamus." Frontiers in neuroinformatics 17 (2023): 1272243. doi: https://doi.org/10.3389/fninf.2023.1272243  
-Myronenko, Andriy, and Xubo Song. "Point set registration: Coherent point drift." IEEE transactions on pattern analysis and machine intelligence 32.12 (2010): 2262-2275.
+
+*Myronenko, Andriy, and Xubo Song. "Point set registration: Coherent point drift." IEEE transactions on pattern analysis and machine intelligence 32.12 (2010): 2262-2275.
 
 
