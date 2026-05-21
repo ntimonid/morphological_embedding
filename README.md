@@ -1,4 +1,4 @@
-# morphological_embedding
+# Morphological Embedding
 
 Morpological Embedding takes as input cell morphologies in the form of 3D point clouds and creates a 2-dimensional embedding in which cells with a similar morphology (shape) are close to each other.
 
