@@ -1,0 +1,15 @@
+numpy
+scipy
+pandas
+matplotlib
+scikit-learn
+scikit-learn-extra
+umap-learn
+geopy
+nrrd
+requests
+morphopy
+networkx
+seaborn
+plotly
+pytest

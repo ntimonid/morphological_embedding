@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Morphology_Embedder"
+version = "0.1.0"
+authors = [
+  { name="Nestor Timonidis", email="nostos91@gmail.com" },
+]
+description = "A tool for morphological embedding and gradient analysis of neurons"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib",
+    "scikit-learn",
+    "scikit-learn-extra",
+    "umap-learn",
+    "geopy",
+    "nrrd",
+    "requests",
+    "morphopy",
+    "networkx",
+    "seaborn",
+    "plotly",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ofcru/Morphology_Embedder"
+"Bug Tracker" = "https://github.com/ofcru/Morphology_Embedder/issues"
